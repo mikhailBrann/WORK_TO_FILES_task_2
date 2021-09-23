@@ -4,8 +4,6 @@ file_name = 'recipes.txt'
 os_separator = os.path.sep
 path_to_file = 'files' + os_separator + file_name
 
-print(path_to_file)
-
 def reading_file(read_file):
     with open(read_file, 'r', encoding="utf-8") as document:
         result = {}
