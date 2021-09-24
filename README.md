@@ -1,3 +1,3 @@
-# Задача №1
+# Задача №2
 
-[Ссылка на реализацию функции](https://github.com/mikhailBrann/WORK_TO_FILES_task_1/blob/f282d96c963722608cda4cbad2d181953e5901ab/main.py#L9-L24)
+[Немного переписал функцию из первой задачи](https://github.com/mikhailBrann/WORK_TO_FILES_task_2/blob/06af0c9572156e5869e68a22620e1615733e87be/main.py#L7-L31)

@@ -9,11 +9,9 @@ def get_shop_list_by_dishes(dishes, person_count):
         result = {}
         for doc_line in document:
             dish_name = doc_line.strip()
-            if dish_name in dishes:
-                
+            if dish_name in dishes:        
                 amount_ingredients = int(document.readline())
-                ingredients_list = []
-
+        
                 for ingredient in range(amount_ingredients):
                     ingredient_name, quantity, measure = document.readline().split('|')
                     find_ingredient = ingredient_name.strip()
@@ -31,5 +29,5 @@ def get_shop_list_by_dishes(dishes, person_count):
         return result
 
 
-recipes_book = get_shop_list_by_dishes(['Фахитос', 'Омлет'], 3)
+recipes_book = get_shop_list_by_dishes(['Фахитос', 'Утка по-пекински', 'Омлет'], 3)
 pprint.pprint(recipes_book)
